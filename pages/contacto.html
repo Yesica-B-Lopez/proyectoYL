@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especias&Condimentos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<header>
+		<nav><a href="../index.html">Inicio</a>
+                <a href="../index.html#nosotros">Nosotros</a>
+                <a href="../index.html#productos">Productos</a>
+                <a href="contacto.html">Contacto</a>
+         </nav>
+	</header>
+    <main>
+        
+        <div>
+           <form>
+                
+                                            
+                <fieldset>
+                    <legend>Datos de Contacto: </legend>
+                    <div>
+                        <label for="nombre"> Nombre: </label>                
+                        <input id ="nombre" name="nombre" type="text" placeholder="Ingrese su Nombre" minlength="3" maxlength="30" required autofocus autocomplete="off">
+                        
+                    </div>
+                   <div>
+                        <label for="mail">Mail: </label>
+                        <input id="mail" name="mail" type="email" placeholder="ingresemail@mail.com" required>
+                     </div>
+                    <div>
+                        <label for="prov">Provincia: </label>
+                        <select name="provincia" id="prov">
+                            <option value="sin" selected>Seleccione una provincia</option>
+                            <option value="Caba">Capital Federal</option>
+                            <option value="Buenos Aires" >Bs. As.</option>
+                            <option value="Catamarca">Catamarca</option>
+                            <option value="Chaco">Chaco</option>
+                            <option value="Cordoba">Cordoba</option>
+                            <option value="Corrientes">Corrientes</option>
+                            <option value="Entre Rios">Entre Rios</option>
+                            <option value="Formosa">Formosa</option>
+                            <option value="Jujuy">Jujuy</option> 
+                            <option value="Misiones">Misiones</option>
+                            <option value="Salta">Salta</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Sgo. del Estero">Sgo. del Estero</option>
+                            <option value="Tucuman">Tucuman</option>
+                        </select>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Consulta: </legend>
+                    <div>
+                        <label for="productos">Seleccione un producto</label>
+                        
+                        <select name="productos" id="productos" multiple>
+                            <optgroup label="Especias">
+                                <option value="oregano" selected>Óregano</option>
+                                <option value="pimenton">Pimentón</option>
+                                <option value="pimenton-dulce">Pimentón Dulce</option>
+                                <option value="mostaza">Pimentón Dulce</option>
+                                <option value="comino">Comino</option>
+                                <option value="laurel">Laurel</option>
+                            </optgroup>
+                            <optgroup label="Condimentos">
+                                <option value="mostaza">Mostaza</option>
+                                <option value="chimichurri">Chimichurri</option>
+                                <option value="mayonesa">Mayonesa</option>
+                            </optgroup>                   
+                        </select>
+                    </div>  <br>           
+                    <textarea name="comentario" id="comentario" cols="40" rows="15" placeholder="Ingrese un Consulta"></textarea>
+                    <br>
+                </fieldset>
+
+                <div>
+                    <fieldset>
+                        <legend>Seleccione una acción</legend>
+                        <input type="button" value="Cancelar">
+                        <input id="enviar" type="submit" value="Enviar">
+                        <input id="reset" type="reset" value="Limpiar">
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+
+ </main>
+ <footer>
+    <div>
+          <p><span class="fuenteNegrita">Dirección:</span> Calle falsa 1234, CABA</p>
+          <p><span class="fuenteNegrita">Teléfono:</span> (11) 5555-5555</p>
+          <p><span class="fuenteNegrita">Mail:</span>  mail@gmail.com</p>
+          
+        </div>
+        <div class="redes">
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://web.whatsapp.com/" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+        </div>
+  </footer>
+</body>
+</html>
