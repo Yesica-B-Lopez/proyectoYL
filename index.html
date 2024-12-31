@@ -2,20 +2,48 @@
 <html lang="es">
 <head>
 	 <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	   <title>Especias&Condimentos</title>
-    <link rel="stylesheet" href="./css/style.css">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+   <link rel="shortcut icon" href="./assets/img/especias (1).png" type="image/x-icon">
+   <title>Especias&Condimentos</title>
+   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-	<header>
-		<nav><a href="./index.html">Inicio</a>
-                <a href="#nosotros">Nosotros</a>
-                <a href="#productos">Productos</a>
-                <a href="./pages/contacto.html">Contacto</a>
-         </nav>
-		
-	</header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Especias&Condimentos</a>
+            <img src="./assets/img/especias (1).png" alt="Logo Especias&Condimentos" class="img-logo">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a class="nav-link" href="./pages/carrito.html">
+                        <i class="fa fa-shopping-cart" style="font-size: 20px;"></i> Carrito
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
 	<main>
     	<section>
        <div id="nosotros">
@@ -29,35 +57,43 @@
           </p>
          </div>
       </section>
-   	    <section>
-            <div id="productos">
-                  <h2>Galería de Productos</h2>
-                  <div class="contenedor">
-                    <img src="./assets/img/img (1).jpg" alt="imagen 1">
-                  </div>
-                  <div class="contenedor">
-                    <img src="./assets/img/imagen (2).jpg" alt="imagen 2">
-                  </div>
-                  <div class="contenedor">
-                    <img src="./assets/img/imagen (3).jpg" alt="imagen 3">
-                  </div>
-                  <div class="contenedor">
-                    <img src="./assets/img/imagen (4).jpg" alt="imagen 4">
-                  </div>
-                  <div class="contenedor">
-                    <img src="./assets/img/imagen (2).jpg" alt="imagen 5">
-                  </div>
-                  <div class="contenedor">
-                    <img src="./assets/img/imagen (3).jpg" alt="imagen 6">
-                  </div>
-                  <div class="contenedor">
-                    <img src="./assets/img/imagen (4).jpg" alt="imagen 7">
-                  </div>
-                  <div class="contenedor">
-                    <img src="./assets/img/imagen (1).jpg" alt="imagen 8">
-                  </div>
-            </div>
-    	</section>
+      <section>
+        <div id="productos">
+          <h2 class="titulo">Galería de Productos</h2> <br>
+          <div class="contenedor">
+            <img src="./assets/img/img (1).jpg" alt="imagen 1">
+            <a href="#" class="btn btn-success btn-agregar" data-nombre="Pimenton" data-precio="3000.00">Agregar al Carrito</a>
+          </div>
+          <div class="contenedor">
+            <img src="./assets/img/img (2).jpg" alt="imagen 2">
+            <a href="#" class="btn btn-success btn-agregar" data-nombre="Pimenton-dulce" data-precio="1500.00">Agregar al Carrito</a>
+          </div>
+          <div class="contenedor">
+            <img src="./assets/img/img (3).jpg" alt="imagen 3">
+            <a href="#" class="btn btn-success btn-agregar" data-nombre="Mostaza" data-precio="2000.00">Agregar al Carrito</a>
+          </div>
+          <div class="contenedor">
+            <img src="./assets/img/img (4).jpg" alt="imagen 4">
+            <a href="#" class="btn btn-success btn-agregar" data-nombre="Comino" data-precio="2500.00">Agregar al Carrito</a>
+          </div>
+          <div class="contenedor">
+            <img src="./assets/img/img (5).jpg" alt="imagen 5">
+            <a href="#" class="btn btn-success btn-agregar" data-nombre="Chimichurri" data-precio="1800.00">Agregar al Carrito</a>
+          </div>
+          <div class="contenedor">
+            <img src="./assets/img/img (6).jpg" alt="imagen 6">
+            <a href="#" class="btn btn-success btn-agregar" data-nombre="Oregano" data-precio="3500.00">Agregar al Carrito</a>
+          </div>
+          <div class="contenedor">
+            <img src="./assets/img/img (7).jpg" alt="imagen 7">
+            <a href="#" class="btn btn-success btn-agregar" data-nombre="Laurel" data-precio="2200.00">Agregar al Carrito</a>
+          </div>
+          <div class="contenedor">
+            <img src="./assets/img/img (8).jpg" alt="imagen 8">
+            <a href="#" class="btn btn-success btn-agregar" data-nombre="Pimienta" data-precio="2700.00">Agregar al Carrito</a>
+          </div>
+        </div>
+      </section>
     </main>
     <article>
       <h3>Las mejores especias para la cocina india</h3>
@@ -73,23 +109,39 @@
       <blockquote>
         "La comida india es una fiesta para los sentidos." 
       </blockquote>
+      <a href="#" class="btn btn-success btn-agregar" data-nombre="Curry" data-precio="3000.00">OFERTA ESPECIAL |         Agregar al Carrito  </a>
     </article>
-    <footer>
-      <div>
-            <p><span class="fuenteNegrita">Dirección:</span> Calle falsa 1234, CABA</p>
-            <p><span class="fuenteNegrita">Teléfono:</span> (11) 5555-5555</p>
-            <p><span class="fuenteNegrita">Mail:</span>  mail@gmail.com</p>
-            
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <h5>Contacto</h5>
+            <p><span class="font-weight-bold">Dirección:</span> Calle falsa 1234, CABA</p>
+            <p><span class="font-weight-bold">Teléfono:</span> (11) 3333-5555</p>
+            <p><span class="font-weight-bold">Mail:</span> condimentosyespecias@gmail.com</p>
           </div>
-          <div class="redes">
-                <a href="https://www.instagram.com/" target="_blank">
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://web.whatsapp.com/" target="_blank">
-                  <i class="fa-brands fa-whatsapp"></i>
-                </a>
+    
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <h5> Nuestras Redes Sociales</h5>
+            <div class="d-flex gap-3">
+              <a href="https://www.instagram.com/" target="_blank" class="btn btn-outline-light rounded-circle">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+              </a>
+              <a href="https://web.whatsapp.com/" target="_blank" class="btn btn-outline-light rounded-circle">
+                <i class="fa-brands fa-whatsapp fa-2x"></i>
+              </a>
+              <a href="https://es-la.facebook.com/" target="_blank" class="btn btn-outline-light rounded-circle">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+              </a>
+            </div>
           </div>
+          <div class="col-12 col-md-12 col-lg-4 mb-4">
+            <a class="navbar-brand" href="./index.html">Especias&Condimentos</a>
+            <img src="./assets/img/especias (1).png" alt="Logo Especias&Condimentos" class="img-logo">
+          </div>
+        </div>
+      </div>
     </footer>
-   
+    <script src="js/carrito.js"></script>
 </body>
 </html>
