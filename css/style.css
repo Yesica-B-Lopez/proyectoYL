@@ -15,10 +15,53 @@
     padding: 20px;
   }
   
+  nav {
+    background-color: #00274C;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  
   nav a {
     color: #FFFFFF;
     text-decoration: none;
     padding: 10px;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    background-color: #005cbf; 
+    border-radius: 5px;
+  }
+
+  .img-logo {
+    width: 50px;
+    height: auto; 
+    margin-right: 20px; 
+}
+  
+  .carrito {
+    display: flex;
+    align-items: center;
+  }
+  
+  .carrito a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .carrito i {
+    margin-right: 5px; /
+    font-size: 18px;     
+  }
+  
+  .carrito a:hover {
+    background-color: #28a745; 
+    border-radius: 5px;
   }
   
   #nosotros {
@@ -36,15 +79,42 @@
   }
   
   footer {
-    display: inline-flex;
-    width: 100%;
-    column-gap: wrap;
-    justify-content:space-around;
     background-color: #00274C;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 20px;
+    color: #FFFFFF;            
   }
+  
+  footer h5 {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  footer .btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+    padding: 10px;
+    transition: transform 0.3s;
+  }
+  
+  footer .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #00274C;
+    transform: scale(1.1);
+  }
+  
+  footer .embed-responsive {
+    border-radius: 10px;
+  }
+  
+  footer .fa-2x {
+    font-size: 2rem;
+  }
+  
   
   h1 {
     font-size: 36px;
@@ -52,6 +122,9 @@
   
   h2 {
     font-size: 24px;
+    color:#005cbf;
+    text-shadow: 2px 2px 5px #808000(1, 1, 1, 2.3);
+    font-weight: bold;
   }
   
   p {
@@ -84,11 +157,13 @@
     gap: 10px;
     padding: 5px;
   }
-  
+ 
   .contenedor {
     display: inline-flex;
+    flex-direction: column;
     width: 300px;
-    margin: 5px;
+    height: 300px;
+    margin: 10px;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -97,7 +172,8 @@
   
   .contenedor img {
     width: 100%;
-    height: 200px;
+    height: 300px;
+    background-size: cover;
     object-fit: cover;
     transition: transform 0.5s ease-in-out;
   }
@@ -106,6 +182,37 @@
     transform: scale(1.1);
     filter: brightness(120%);
   }
+
+.btn-agregar {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745; 
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-agregar:hover {
+  background-color:  #00274C;  
+  transform: scale(1.05);  
+}
+
+.btn-agregar:active {
+  background-color: #1e7e34; 
+}
+
+.contenedor a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
 
  
