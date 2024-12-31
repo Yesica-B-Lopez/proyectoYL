@@ -1,5 +1,5 @@
 ## Carrito de Compras de Condimentos y Especias 
-<center><img src="../assets/img/especias (1).png" alt="logo" width="100"></center>
+<center><img src="./assets/img/especias (1).png" alt="logo" width="100"></center>
 
 **Descripción:**
 Este proyecto web permite a los usuarios explorar y comprar variedad de condimentos y especias. <br>
