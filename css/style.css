@@ -35,7 +35,7 @@
   }
 
   .img-logo {
-    width: 50px;
+    width: 10%;
     height: auto; 
     margin-right: 20px; 
 }
@@ -55,7 +55,7 @@
   }
   
   .carrito i {
-    margin-right: 5px; /
+    margin-right: 5px; 
     font-size: 18px;     
   }
   
@@ -114,7 +114,6 @@
   footer .fa-2x {
     font-size: 2rem;
   }
-  
   
   h1 {
     font-size: 36px;
